@@ -2,11 +2,11 @@
 	"name": "voutline",
 	"displayName": "voutline",
 	"description": "visual outline",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"publisher": "HsinYuanYeh",
 	"repository": {
-		"type":"git",
-		"url":"https://github.com/iapyeh/voutline.git"
+		"type": "git",
+		"url": "https://github.com/iapyeh/voutline.git"
 	},
 	"engines": {
 		"vscode": "^1.32.0"
