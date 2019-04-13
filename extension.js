@@ -167,7 +167,7 @@ function get_html(context){
         <link rel="stylesheet" href="${src_path}/w2ui-1.5.rc1.min.css">        
         
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <script src="https://unpkg.com/esprima@~4.0/dist/esprima.js"></script>
+        <script src="https://unpkg.com/esprima@~4.0.1/dist/esprima.js"></script>
         <script    src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 
