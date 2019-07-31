@@ -41,7 +41,7 @@ function activate(context) {
             }
             return z+s
         }
-        let timestamp = now.getUTCFullYear()+'-'+zerofill(now.getUTCMonth(),2)+'-'+zerofill(now.getUTCDate(),2)+'T'+ zerofill(now.getUTCHours(),2)+':'+zerofill(now.getUTCMinutes(),2)+':'+ zerofill(now.getUTCSeconds(),2)+'+00:00'
+        let timestamp = now.getUTCFullYear()+'-'+zerofill(now.getUTCMonth()+1,2)+'-'+zerofill(now.getUTCDate(),2)+'T'+ zerofill(now.getUTCHours(),2)+':'+zerofill(now.getUTCMinutes(),2)+':'+ zerofill(now.getUTCSeconds(),2)+'+00:00'
         editor.edit(function(edit_builder){
             if (editor.selection.isEmpty) {
                 // the Position object gives you the line and character where the cursor is
@@ -194,6 +194,7 @@ function get_html(context){
         body{
             margin:0;
             padding:0;
+            color:black;
         }
         #page{
             width:100vw;
